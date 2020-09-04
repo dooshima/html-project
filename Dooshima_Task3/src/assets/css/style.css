@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font: normal normal normal 13px/20px Nunito Sans;
+    background-color: #F2F1F0FC;
+    font-size: 15px;
+
+  }
+button{
+background-color: #00A294; 
+color: snow; 
+  border-color: #ffffff;
+  height: 40px;
+  
+}
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: #00A294;
+    color: #ffffff;
+  }
+  
+  .nav-actives a:hover{
+    background-color: #00A294;
+    color: #ffffff;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+
+   
+ h5{
+    font-size: 15px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  h6{
+    color: #707070;
+    font-weight: bold;
+  }
+ .button{
+  border-radius: 17px;
+  margin-left: 250px;
+ }
+ .image-one{
+   width: 240px;
+  height: 180px;
+  margin-top: 0px;
+
+}
+
+.div-stylish{
+  margin-left: 40px;
+}
+
+.div-rearrange{
+  margin-left: 30px;
+}
+
+.search-button{
+  border-radius: 20px;
+  width: 35px;
+  background-color: #C1C7C7;
+  margin-left: 450px;
+}
+
+.h5-style{
+  text-align: center;
+}
+
+.style-p{
+  font-size: 17px;
+  color: #A6ADB4;
+}
+.the-image{
+  width: 130px;
+  height: 100px;
+}
+
+.button-up{
+  border-radius: 17px;
+  width: 200px;
+}
+
+.let-center{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.but-one{
+  border-radius: 17px;
+}
+ .div-content{
+    width: 400px;
+    margin-left: 200px;
+    background-color: #00000029;
+ }
+ .p-tag{
+   display: inline;
+ }
+ .buttons-style{
+   height: 40px;
+   border-radius: 17px;
+   float: right;
+ }
+ .img-resize{
+   width: 50px;
+   height: 50px;
+ }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
