@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="html budgit"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="stylesheet" href="./assests/css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+
+    <title>Konnector</title>
+  </head>
+  <body>
+    <div class="containers">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__content-icon">
+            <img src="assests/images/logo.svg" />
+          </div>
+          <div class="header__content-search">
+            <svg class="search__icon">
+              <use xlink:href="assests/images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+            <input id="input_tag" type="text" name="text" placeholder="Type to search"/>
+          </div>
+        </div>
+        <div class="header__profile">
+          <p class="header__profile-text">Victor Omemu</p>
+          <img class="header__profile-logo" src="assests/images/victor.png"/>
+        </div>
+      </header>
+
+      <div class="container" id="main__cont">
+        <div class="row">
+          <div id="first__content" class="col-sm-12 col-md-12 col-lg-3">
+            <div class="icon">
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus-circle-fill" fill="#00A294" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4a.5.5 0 0 0-1 0v3.5H4a.5.5 0 0 0 0 1h3.5V12a.5.5 0 0 0 1 0V8.5H12a.5.5 0 0 0 0-1H8.5V4z"/>
+              </svg>
+              <p class="icon__text"> Add a post </p>
+           </div>
+
+            <div class="move" >
+              <div id="home" class="svg_icon">
+                <img class="svg_icon-img" src="assests/images/f119.svg"/>
+                <p class="svg_icon-text"> Home </p>
+              </div>
+              <div class="svg_icon">
+                <img class="svg_icon-img" src="assests/images/social-group.svg"/>
+                <p class="svg_icon-text"> People</p>
+              </div>
+              <div  class="svg_icon">
+                <img class="svg_icon-img" src="assests/images/Group 34.svg"/>
+                <p class="svg_icon-notify"> Notification </p>
+              </div>
+              <div class="svg_icon">
+                <img class="svg_icon-img" src="assests/images/mail-box-email-post-delivery-envelope.svg"/>
+                <p class="svg_icon-text"> Inbox</p>
+              </div>
+            </div>
+
+            <div class="arrow_links">
+              <div class="arrow_link">
+                <svg class="arrow_link-svg">
+                  <use xlink:href="assests/images/sprite.svg#icon-chevron-small-right"></use>
+                </svg>
+                <p class="arrow_link-txt"> Contests</p>
+              </div>
+              <div class="arrow_link">
+                <svg class="arrow_link-svg">
+                  <use xlink:href="assests/images/sprite.svg#icon-chevron-small-right"></use>
+                </svg>
+                <p class="arrow_link-txt"> Liked posts</p>
+              </div> <div class="arrow_link">
+                <svg class="arrow_link-svg">
+                  <use xlink:href="assests/images/sprite.svg#icon-chevron-small-right"></use>
+                </svg>
+                <p class="arrow_link-txt"> Wallet </p>
+              </div>
+
+            </div>
+
+            <div class="last-link">
+             
+                <a href="#">About us</a>
+                <a href="#">.Support</a>
+                <a href="#">.Press</a>
+                <a href="#">.Api</a>
+                <a href="#">.Jobs</a>
+                <a href="#">.Privacy</a>
+                <a href="#">.Terms</a>
+                <a href="#">.Directories</a>
+                <a href="#">.profile</a>
+                <a href="#">.Hashtags</a>
+                <a href="#">.Languge</a>
+                <p class="last-link-text">
+                  &#169; 2019 KONNECTOR
+                </p>
+            </div>
+          </div>
+
+
+          <div id="second__content" class="col-sm-12 col-md-12 col-lg-6">
+
+            <div class="middle_text">
+              <svg class="middle_text-svg">
+                <use xlink:href="assests/images/sprite.svg#icon-chevron-thin-left"></use>
+              </svg>
+              <p  class="middle_text-txt">Back</p>
+              <p class="middle_text-stage">The Stage Contest-Entry Submision </p>
+            </div>
+
+            <div class="inner__content">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="assests/images/pattern.jpg" class="card-img" style="height:12rem" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"> The stage 2019 </h5>
+                      <p class="card-text"><small class="text-muted">1024 contestants  </small></p>
+                      <p class="card-text">Entries accepted from <strong>1st FEB to 1st MAR 2019</strong></p>
+                      <span> <button class="btn" style="color:#fff; background-color: #21C184;" type="submit">ONGOING</button> </span>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p style="padding-left:3rem;font-size:1.4rem;color:grey"><strong>Add an entry</strong></p>
+              <div class="opacq_section">
+                <img class="opacq_section-img" width="100%"  src="assests/images/pattern.jpg "/>
+              </div>
+
+              <div class="footer">
+                <p class="footer-text">Need help?</p>
+                <button class="footer-submit">submit</button>
+              </div>
+            </div>
+   
+           
+          </div>
+          <div  class="col-sm-12 col-md-12 col-lg-3">
+           
+            <div class="third__content">
+              <P class="third__content-top"> TOP CONTENTS  </P>
+
+              <div class="third__content-card">
+                <img class="third__content-img"  width="35%" src="assests/images/pattern.jpg"/>
+                <div class="third__content-div">
+                  <p class="third__content-div1">M.UL.T.I NG star ..</p>
+                  <p class="third__content-div2"> M.UL.T.I NG </p>
+                </div>
+              </div>
+
+              <div class="third__content-card">
+                <img class="third__content-img"  width="35%" src="assests/images/pattern.jpg"/>
+                <div class="third__content-div">
+                  <p class="third__content-div1">Access Bank Dance ..</p>
+                  <p class="third__content-div2"> Access Bank  Hunt </p>
+                </div>
+              </div>
+
+              <div class="third__content-card">
+                <img class="third__content-img"  width="35%" src="assests/images/pattern.jpg"/>
+                <div class="third__content-div">
+                  <p class="third__content-div1">Peak Ultimate Chall ..</p>
+                  <p class="third__content-div2"> Peak Milk </p>
+                </div>
+              </div>
+
+              <div id="last-child" class="third__content-card">
+                <img class="third__content-img"  width="35%" src="assests/images/pattern.jpg"/>
+                <div class="third__content-div">
+                  <p class="third__content-div1">The Voive Ng 2019</p>
+                  <p class="third__content-div2"> The voice </p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="see_all"> SEE ALL </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+  <script src="bundle.js"></script>
+
+  </html>

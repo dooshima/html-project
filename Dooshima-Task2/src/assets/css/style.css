@@ -1,0 +1,204 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #FFFAFA;
+  font-size: 15px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  margin-top: 170px;
+}
+nav{
+  height: 60px;
+}
+.sidenav li{
+  padding-top: 15px;
+}
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+h5{
+  font-size: 14px;
+}
+h3{
+  margin-top: 10px;
+}
+.p-post{
+  margin-top: 0px;
+}
+.image{
+  width: 150px;
+  height: 150px;
+}
+.top-image{
+  width: 100px;
+height: 70px;
+}
+
+.paragraph{
+  line-height: 50px;
+
+}
+.about-us{
+  font-family: Times, serif; 
+  font-size: 15px;
+  padding:10px;
+  word-wrap: break-word;
+
+}
+.top-paragraph{
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 12px;
+}
+.div-image{
+  height: 50px;
+  width: 300px;
+  margin: 0 150px 0 150px;
+}
+
+.full-button{
+background-color: #E5E5E5;
+width: 100%;
+margin-top: 10px;
+  
+}
+.let-center{
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.p-graph{
+  color: #BABABA;
+  font-size: 13px;
+  padding-left: 12px;
+
+}
+.p-paragraph{
+  margin-top: 30px;
+  color: #BABABA;
+font-size: 20px;
+
+}
+.h-four{
+  font-size: 17px;
+  color: #A6ADB4;
+  font-weight: bold;
+}
+
+.other-side{
+  padding-left: 0px;
+  padding-right: 28px;
+  height: 380px;
+  margin-left: 50px;
+  margin-top: 0px;
+  
+}
+.search-button{
+  border-radius: 20px;
+  width: 35pxp;
+  background-color: #C1C7C7;
+}
+
+.jump-row{
+  margin-left: 70px;
+}
+.give-width{
+  width: 100%;
+  margin-left: 0px;
+  
+}
+.img-logo{
+  margin-left: 50px;
+}
+
+.img-right{
+  margin-left: 50px;
+
+}
+
+
+form{
+  margin-left: 350px;
+  border-radius: 17px;
+}
+input{
+  background-color: #E5E5E5;
+border-radius: 50px;
+}
+hr{
+  width: 180px;
+  margin-left: 2px;
+}
+.scroll-bar{
+  height: 30px;
+}
+.img-side{
+  height: 100px;
+  width: 300px;
+  margin: 20px 150px 0 150px;
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(10px);
+}
+.main {
+  margin-left: 200px;
+  height: 800px;
+}
+.sidenav a .extra{
+  font-size: 15px;
+} 
+div .move-button{
+  margin-left: 400px;
+  margin-top:300px;
+}
+
+.button{
+  background: #00A294 0% 0% no-repeat padding-box;
+border-radius: 17px;
+opacity: 1;
+width: 150px;
+height: 40px;
+color: #ffffff;
+border-color: #ffffff;
+
+}
+
+#botton{
+  background: #00A294 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  opacity: 1;
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  border-color: #ffffff;
+
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}

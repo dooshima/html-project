@@ -1,0 +1,33 @@
+
+@font-face{
+    font-family: 'Nunito-sans';
+    src: url('../fonts/nunito-sans/NunitoSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Nunito-sans-semi-bold';
+    src: url('../fonts/nunito-sans/NunitoSans-Bold.ttf');
+}
+
+
+:root{
+    --konnectore-green: #039F97;
+    --konnectore-grey: #FAFAFA;
+    --konnectore-red: #C8686A;
+    --side-menu-font:#7E8286;
+    --side-menu-other: #A8A9AB;
+    --nunito-sb:'Nunito-sans-semi-bold';
+    --nunito:'Nunito-sans' 
+}
+
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.collective{width: 100%;min-height:100vh;background:var(--konnectore-grey);position: relative;padding-top: 150px;}

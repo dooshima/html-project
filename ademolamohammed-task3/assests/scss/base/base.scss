@@ -1,0 +1,43 @@
+
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: inherit ;
+}
+
+
+
+html {
+  font-size:62.5%;  //its takes up 100% when not specified. its a good practice to always specify the font-size of th html
+     /* 100%*10px/16 = 62.5% */ 
+    /* font-size:10px; 10px is = root 1rem, or anything you specify as the root */ 
+}
+
+
+
+
+
+ 
+    body {
+        box-sizing:border-box;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color:$color-background;
+    }
+    
+    ::selection{
+        background-color:#55c57a;
+        color:#fff;
+    }
+
+
+
+
+    @media only screen and (max-width:608px) {
+
+        html{
+            font-size: 50%;
+        }
+
+    }

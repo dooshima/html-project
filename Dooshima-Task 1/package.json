@@ -1,0 +1,64 @@
+{
+  "name": "html-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+=======
+=======
+>>>>>>> b54d3a9d3534db59c14a067eb1ab8b577fc6787c
+    "start" :"webpack-dev-server --open",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademolamohammed/html-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ademolamohammed/html-project/issues"
+  },
+  "homepage": "https://github.com/ademolamohammed/html-project#readme",
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "sass-loader": "^10.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+<<<<<<< HEAD
+>>>>>>> aeb111a6b4f154cde2595654089a2df6a45e9371
+=======
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+>>>>>>> 8436b40ebeab1ecca8b914fc9377f0b4fc0a637a
+>>>>>>> b54d3a9d3534db59c14a067eb1ab8b577fc6787c
+  }
+}

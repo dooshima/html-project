@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="html budgit"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">   
+     <link rel="stylesheet" href="assests/css/style.css" />
+  
+    <title>konnector 2</title>
+  </head>
+  <body>
+    <div class="containers">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__content-icon">
+            <img src="assests/images/logo.svg" />
+          </div>
+          <div class="header__content-search">
+            <svg class="search__icon">
+              <use xlink:href="assests/images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+            <input id="input_tag" type="text" name="text" placeholder="Type to search"/>
+          </div>
+        </div>
+        <div class="header__profile">
+          <p class="header__profile-text">The stage</p>
+          <img class="header__profile-logo" src="assests/images/victor.png"/>
+        </div>
+      </header>
+
+      <div class="main_content">
+        <div class="main_div">  <!--  the whole middle div -->
+          <div class="main_div-nav"> <!--  every link on the left div -->
+            <div class="main_div-navlinks">  <!-- exlusive for links -->
+              <div class="main_div-navlinks-div">
+                <img id="move_img" class="main_div-navlinks-div-img" src="assests/images/ic-dashboard-24px.svg">
+                <p class="main_div-navlinks-div-text"> Home </p>
+              </div>
+              <div class="main_div-navlinks-div" id="content-manager" >
+                <img class="main_div-navlinks-div-img" id="star" src="assests/images/star-button.svg">
+                <p  id="text" class="main_div-navlinks-div-text"> Contest Manager </p>
+                <svg class="arrow_link">
+                  <use xlink:href="assests/images/sprite.svg#icon-chevron-small-right"></use>
+                </svg>
+              </div>
+              <div class="main_div-navlinks-div">
+                <img class="main_div-navlinks-div-img" src="assests/images/Group 34.svg">
+                <p class="main_div-navlinks-div-text"> Notifications </p>
+              </div>
+              <div class="main_div-navlinks-div">
+                <img class="main_div-navlinks-div-img" src="assests/images/mail-box-email-post-delivery-envelope.svg">
+                <p class="main_div-navlinks-div-text"> Inbox </p>
+              </div>
+            </div>
+
+            <div class="main-links">
+              <div class="main-links-div">
+                <img class="main-links-div-img" src="assests/images/flag.svg">
+                <p class="main-links-div-text"> Ads &amp;  Promotions </p>
+              </div>
+              <div class="main-links-div">
+                <img class="main-links-div-img" id="wallet" src="assests/images/wallet.svg">
+                <p class="main-links-div-text"> Wallet </p>
+              </div>
+              <div class="main-links-div"  >
+                <img class="main-links-div-img"  src="assests/images/star-button (2).svg">
+                <p class="main-links-div-text"> Settings </p>
+              </div>
+            </div>
+            <div class="last-link">
+              
+              <a href="#">About us</a>
+              <a href="#">.Support</a>
+              <a href="#">.Press</a>
+              <a href="#">.Api</a>
+              <a href="#">.Jobs</a>
+              <a href="#">.Privacy</a>
+              <a href="#">.Terms</a>
+              <a href="#">.Directories</a>
+              <a href="#">.profile</a>
+              <a href="#">.Hashtags</a>
+              <a href="#">.Languge</a>
+              <p class="last-link-text">
+                &#169; 2019 KONNECTOR
+              </p>
+            </div>
+          </div>
+          <div class="middle_content">
+            <p class="middle_content-text"> Contest Manager </p>
+            <div class="middle_content-first">
+              <div class="middle_content-first-div"> 
+                <p>Ongoing</p>
+                <div id="ended"> <p class="middle_content-first-txt1">Ended</p>  </div>
+                <p>Paused</p>
+                <p>Drafts</p>
+                <p class="middle_content-first-txt2">create a contest </p>
+              </div>
+            </div>
+            <div class="middle_content-line">PAST CONTENTS</div>
+
+            <div class="card">
+              <div class="card-div"> 
+                <div  class="card-div-first">
+                  <!-- <div class="card-div-first-1"> -->
+                    <img class="card-div-first-img" src="assests/images/post-img.png">
+                  <!-- </div> -->
+                  <div class="card-div-first-2"> 
+                    <p class="card-div-first-2-1" >The stage competision 2018</p>
+                    <p class="card-div-first-2-2">ENDED NOV 2018</p>
+                    <p class="card-div-first-2-3">CONTEST WINNERS</p>
+                    <div>
+                      <img width="17rem" src="assests/images/gold.png">
+                      <img width="17rem" src="assests/images/silva.png">
+                      <img width="17rem" src="assests/images/gold.png">
+                    </div>
+                  </div>
+                  <button> view more </button>
+                </div>
+                <hr class="hr-line">
+
+                <div class="card-div-second">
+                  <div class="card-div-second-1">
+                    <p> No of rounds</p>
+                    <p style="font-size:1.5rem;"> 6 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Entries</p>
+                    <p style="font-size:1.5rem;"> 1321 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Votes</p>
+                    <p style="font-size:1.5rem;"> 63,278 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> Total duration </p>
+                    <p style="font-size:1.5rem;"> 79 Days </p>
+                  </div>
+                </div>
+              </div>           
+            </div>
+
+            <div class="card">
+              <div class="card-div"> 
+                <div  class="card-div-first">
+                  <!-- <div class="card-div-first-1"> -->
+                    <img class="card-div-first-img" src="assests/images/post-img.png">
+                  <!-- </div> -->
+                  <div class="card-div-first-2"> 
+                    <p class="card-div-first-2-1" >The stage competision 2018</p>
+                    <p class="card-div-first-2-2">ENDED NOV 2018</p>
+                    <p class="card-div-first-2-3">CONTEST WINNERS</p>
+                    <div>
+                      <img width="17rem" src="assests/images/gold.png">
+                      <img width="17rem" src="assests/images/silva.png">
+                      <img width="17rem" src="assests/images/gold.png">
+                    </div>
+                  </div>
+                </div>
+                <hr class="hr-line">
+
+                <div class="card-div-second">
+                  <div class="card-div-second-1">
+                    <p> No of rounds</p>
+                    <p style="font-size:1.5rem;"> 6 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Entries</p>
+                    <p style="font-size:1.5rem;"> 1321 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Votes</p>
+                    <p style="font-size:1.5rem;"> 63,278 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> Total duration </p>
+                    <p style="font-size:1.5rem;"> 79 Days </p>
+                  </div>
+                </div>
+              </div>           
+            </div>
+
+            <div class="card">
+              <div class="card-div"> 
+                <div  class="card-div-first">
+                  <!-- <div class="card-div-first-1"> -->
+                    <img class="card-div-first-img" src="assests/images/post-img.png">
+                  <!-- </div> -->
+                  <div class="card-div-first-2"> 
+                    <p class="card-div-first-2-1" >The stage competision 2018</p>
+                    <p class="card-div-first-2-2">ENDED NOV 2018</p>
+                    <p class="card-div-first-2-3">CONTEST WINNERS</p>
+                    <div>
+                      <img width="17rem" src="assests/images/gold.png">
+                      <img width="17rem" src="assests/images/silva.png">
+                      <img width="17rem" src="assests/images/gold.png">
+                    </div>
+                  </div>
+                </div>
+                <hr class="hr-line">
+
+                <div class="card-div-second">
+                  <div class="card-div-second-1">
+                    <p> No of rounds</p>
+                    <p style="font-size:1.5rem;"> 6 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Entries</p>
+                    <p style="font-size:1.5rem;"> 1321 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> No of Votes</p>
+                    <p style="font-size:1.5rem;"> 63,278 </p>
+                  </div>
+                  <div class="card-div-second-1">
+                    <p> Total duration </p>
+                    <p style="font-size:1.5rem;"> 79 Days </p>
+                  </div>
+                </div>
+              </div>           
+            </div>
+            
+          </div>
+          
+          <div class="side">
+            <img class="football" src="assests/images/ball 4.jpg">
+            <div class="side-div">
+              <h2> Soccs dazzle competition</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi laudantium ducimus fu
+                aut dicta atque unde, nisi recusandae
+              </p>
+              <p class="boost">Boost your contest</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="bundle.js"></script>
+  </html>
